@@ -61,9 +61,8 @@ input {
 	position: absolute;
 	font-weight: 500;
 	font-size: 1.5rem;
-	right: 0;
-	bottom: 0;
-	transform: rotate(269deg);
+	right: 50%;
+	bottom: 90px;
 }
 
 .result p {
