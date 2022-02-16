@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import DisplayResult from "./components/DisplayResult";
-const API_KEY = "3812821b256871b4e510bd732397b64f";
+const API_KEY = process.env.REACT_APP_API_KEY;
 function App() {
 	const [city, setCity] = useState("");
 	const [query, setQuery] = useState("new york");
